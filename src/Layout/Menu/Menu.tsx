@@ -9,6 +9,7 @@ const Menu = () => {
           <Link className={Style.Link} to="/">
             Home
           </Link>
+    
           <Link className={Style.Link} to="/blog">
             Blog
           </Link>
