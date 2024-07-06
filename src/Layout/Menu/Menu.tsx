@@ -17,7 +17,7 @@ const Menu = () => {
             I'M TIRED
           </Link>
           <Link className={Style.Link} to="/">
-            of this shit
+            of this shit agh
           </Link>
         </ul>
       </div>
