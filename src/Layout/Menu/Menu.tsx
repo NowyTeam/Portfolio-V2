@@ -11,7 +11,7 @@ const Menu = () => {
           </Link>
     
           <Link className={Style.Link} to="/blog">
-            Blog
+            Blogeg
           </Link>
           <Link className={Style.Link} to="/">
             I'M TIRED
