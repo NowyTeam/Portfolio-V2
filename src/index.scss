@@ -1,10 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Dongle:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
-  font-family: "Dongle", sans-serif;
+  font-family: "Koblenz-Serial";
   font-weight: 400;
+  font-style: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Koblenz-Serial";
+  src: url(../font/Koblenz-Serial-Bold.ttf);
 }

@@ -1,0 +1,68 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+  //Под сомнением , мб все таки заюзать Flex а не мучаться Гридом ?
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 90px 1fr;
+  .Introduce {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Introduce_wrap {
+      width: 90%;
+      display: grid;
+      grid-template-columns: 60px 1fr;
+      grid-gap: 15px;
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        height: 60px;
+        background-color: #248aff;
+
+        .LogoTitle {
+          font-size: 30px;
+          color: white;
+        }
+      }
+      .Description {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .Main_Description {
+          font-size: 27px;
+          width: 100%;
+        }
+        .Second_Description {
+          color: #373737;
+          font-size: 14px;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .Link {
+      width: 90%;
+      color: rgb(0, 0, 0);
+      border-radius: 5px;
+      padding: 15px 10px;
+      display: flex;
+      font-size: 19px;
+      align-items: center;
+
+      &.activeLink {
+        color: white;
+        background-color: #248aff;
+      }
+    }
+  }
+}

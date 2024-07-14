@@ -1,12 +1,23 @@
 .wrapper {
+  display: grid;
+  grid-template-areas: "header main";
   width: 100%;
-  display: flex;
+  grid-template-columns: 20rem 1fr;
+  grid-template-rows: 1fr;
 
   .header {
-    width: 20%;
+    grid-area: header;
+    width: 100%;
   }
 
   .main {
+    grid-area: main;
     width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    grid-template-columns: 15rem 1fr;
   }
 }

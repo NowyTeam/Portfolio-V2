@@ -1,24 +1,50 @@
-import Style from "./Manu.module.scss";
-import { Link } from "react-router-dom";
+import Style from "./Menu.module.scss";
+import { NavLink } from "react-router-dom";
 
 const Menu = () => {
   return (
     <>
       <div className={Style.wrapper}>
+        <div className={Style.Introduce}>
+          <div className={Style.Introduce_wrap}>
+            <div className={Style.logo}>
+              <h3 className={Style.LogoTitle}>N</h3>
+            </div>
+            <div className={Style.Description}>
+              <h3 className={Style.Main_Description}>Nowy</h3>
+              <h5 className={Style.Second_Description}>Web Devoloper</h5>
+            </div>
+          </div>
+        </div>
         <ul className={Style.wrap}>
-          <Link className={Style.Link} to="/">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? `${Style.Link} ${Style.activeLink}` : Style.Link
+            }
+            to="/">
             Home
-          </Link>
-    
-          <Link className={Style.Link} to="/blog">
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? `${Style.Link} ${Style.activeLink}` : Style.Link
+            }
+            to="/blog">
             Blogeg
-          </Link>
-          <Link className={Style.Link} to="/">
-            I'M TIRED
-          </Link>
-          <Link className={Style.Link} to="/">
-            of this shit agh
-          </Link>
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? `${Style.Link} ${Style.activeLink}` : Style.Link
+            }
+            to="https://www.meme-arsenal.com/memes/19b4a7b94c0760e212c5873d79dde793.jpg">
+            Y aparata
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? `${Style.Link} ${Style.activeLink}` : Style.Link
+            }
+            to="https://i.pinimg.com/736x/fe/9d/3b/fe9d3ba40bf7fb1ede8e42e69e8e9b32.jpg">
+            Helikopter
+          </NavLink>
         </ul>
       </div>
     </>
