@@ -1,12 +1,5 @@
 {
   "rewrites": [
-    {
-      "source": "/blog",
-      "destination": "/blog/index.html"
-    },
-    {
-      "source": "/blog/:slug*",
-      "destination": "/blog/:slug*"
-    }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
