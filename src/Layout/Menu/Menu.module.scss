@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 90px 1fr;
+  grid-gap: 16px;
   .Introduce {
     width: 100%;
     display: flex;
@@ -14,18 +15,18 @@
     .Introduce_wrap {
       width: 90%;
       display: grid;
-      grid-template-columns: 60px 1fr;
+      grid-template-columns: 50px 1fr;
       grid-gap: 15px;
       .logo {
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 4px;
-        height: 60px;
+        height: 50px;
         background-color: #248aff;
 
         .LogoTitle {
-          font-size: 30px;
+          font-size: 26px;
           color: white;
         }
       }
@@ -34,12 +35,13 @@
         display: flex;
         flex-direction: column;
         .Main_Description {
-          font-size: 27px;
+          font-size: 23px;
           width: 100%;
         }
         .Second_Description {
-          color: #373737;
-          font-size: 14px;
+          color: #000000;
+          opacity: 0.64;
+          font-size: 13px;
           width: 100%;
         }
       }
@@ -56,7 +58,7 @@
       border-radius: 5px;
       padding: 15px 10px;
       display: flex;
-      font-size: 19px;
+      font-size: 17px;
       align-items: center;
 
       &.activeLink {

@@ -31,20 +31,20 @@ const Menu = () => {
             to="/blog">
             Blogeg
           </NavLink>
-          <NavLink
+          {/* <NavLink
             className={({ isActive }) =>
               isActive ? `${Style.Link} ${Style.activeLink}` : Style.Link
             }
             to="https://www.meme-arsenal.com/memes/19b4a7b94c0760e212c5873d79dde793.jpg">
             Y aparata
-          </NavLink>
-          <NavLink
+          </NavLink> */}
+          {/* <NavLink
             className={({ isActive }) =>
               isActive ? `${Style.Link} ${Style.activeLink}` : Style.Link
             }
             to="https://i.pinimg.com/736x/fe/9d/3b/fe9d3ba40bf7fb1ede8e42e69e8e9b32.jpg">
             Helikopter
-          </NavLink>
+          </NavLink> */}
         </ul>
       </div>
     </>
