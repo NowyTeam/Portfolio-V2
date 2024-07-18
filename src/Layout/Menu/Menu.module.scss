@@ -7,6 +7,8 @@
   grid-template-columns: 1fr;
   grid-template-rows: 90px 1fr;
   grid-gap: 16px;
+
+  background-color: var(--color1);
   .Introduce {
     width: 100%;
     display: flex;
@@ -23,12 +25,9 @@
         align-items: center;
         border-radius: 4px;
         height: 50px;
-        background-color: #248aff;
-
-        .LogoTitle {
-          font-size: 26px;
-          color: white;
-        }
+        background-image: url(https://www.icegif.com/wp-content/uploads/2022/07/icegif-347.gif);
+        background-position: center;
+        background-size: 90px;
       }
       .Description {
         width: 100%;
@@ -37,9 +36,10 @@
         .Main_Description {
           font-size: 23px;
           width: 100%;
+          color: #f3f3f3;
         }
         .Second_Description {
-          color: #000000;
+          color: #f3f3f3;
           opacity: 0.64;
           font-size: 13px;
           width: 100%;
@@ -54,7 +54,7 @@
     flex-direction: column;
     .Link {
       width: 90%;
-      color: rgb(0, 0, 0);
+      color: #f3f3f3;
       border-radius: 5px;
       padding: 15px 10px;
       display: flex;
@@ -63,7 +63,7 @@
 
       &.activeLink {
         color: white;
-        background-color: #248aff;
+        background-color: var(--color7);
       }
     }
   }

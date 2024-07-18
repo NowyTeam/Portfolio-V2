@@ -7,9 +7,7 @@ const Menu = () => {
       <div className={Style.wrapper}>
         <div className={Style.Introduce}>
           <div className={Style.Introduce_wrap}>
-            <div className={Style.logo}>
-              <h3 className={Style.LogoTitle}>N</h3>
-            </div>
+            <div className={Style.logo}></div>
             <div className={Style.Description}>
               <h3 className={Style.Main_Description}>Nowy</h3>
               <h5 className={Style.Second_Description}>Web Devoloper</h5>
