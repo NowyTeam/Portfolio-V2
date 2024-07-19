@@ -10,7 +10,7 @@ const Menu = () => {
             <div className={Style.logo}></div>
             <div className={Style.Description}>
               <h3 className={Style.Main_Description}>Nowy</h3>
-              <h5 className={Style.Second_Description}>Web Devoloper</h5>
+              <h5 className={Style.Second_Description}>Front Dev & Designer</h5>
             </div>
           </div>
         </div>

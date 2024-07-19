@@ -25,9 +25,10 @@
         align-items: center;
         border-radius: 4px;
         height: 50px;
-        background-image: url(https://www.icegif.com/wp-content/uploads/2022/07/icegif-347.gif);
-        background-position: center;
-        background-size: 90px;
+        background-image: url(../../../public/Episode_8.jpg);
+        background-position-x: -87px;
+        background-position-y: -8px;
+        background-size: 160px;
       }
       .Description {
         width: 100%;
@@ -70,5 +71,4 @@
 }
 
 @media (max-width: 1200px) {
-    
-} 
+}
