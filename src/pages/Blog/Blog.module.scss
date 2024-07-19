@@ -1,21 +1,15 @@
 .Test {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.6rem;
   background-color: var(--color3);
   color: var(--color2);
-  overflow: scroll;
-
-  &::-webkit-scrollbar {
-    width: 0;
-  }
 
   .title {
     width: 100%;
-    height: 120vh;
     display: flex;
     justify-content: center;
     align-items: center;

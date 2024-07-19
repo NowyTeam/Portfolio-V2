@@ -18,6 +18,22 @@
 
 @media (max-width: 1200px) {
   .wrapper {
-    grid-template-columns: 15rem 1fr;
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "main main";
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100%;
+
+    .header {
+      grid-area: header;
+      width: 100%;
+    }
+
+    .main {
+      grid-area: main;
+      width: 100%;
+    }
   }
 }

@@ -27,7 +27,7 @@ const Menu = () => {
               isActive ? `${Style.Link} ${Style.activeLink}` : Style.Link
             }
             to="/blog">
-            Blogeg
+            Blog
           </NavLink>
           {/* <NavLink
             className={({ isActive }) =>
