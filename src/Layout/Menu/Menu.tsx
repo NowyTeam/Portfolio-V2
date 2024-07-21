@@ -1,10 +1,32 @@
+import { useState } from "react";
 import Style from "./Menu.module.scss";
 import { NavLink } from "react-router-dom";
 
 const Menu = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  // const closeMenu = () => {
+  //   setIsMenuOpen(false);
+  // };
+
   return (
     <>
-      <div className={Style.wrapper}>
+      <div className={Style.Adapter_wrap}>
+        <div className={Style.Adapter}>
+          <div className={Style.Burger_Menu}  onClick={toggleMenu}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div
+        className={`${Style.wrapper} ${isMenuOpen ? Style.open : ""}`}
+        >
         <div className={Style.Introduce}>
           <div className={Style.Introduce_wrap}>
             <div className={Style.logo}></div>
