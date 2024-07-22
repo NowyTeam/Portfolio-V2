@@ -13,6 +13,7 @@ export const Layout = () => {
       <main className={Style.main}>
         <Main />
       </main>
+
     </div>
   );
 };
