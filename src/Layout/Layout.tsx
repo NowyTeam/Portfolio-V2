@@ -1,6 +1,6 @@
 import Main from "./Main/Main";
 import Menu from "./Menu/Menu";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 import Style from "./Layout.module.scss";
 
