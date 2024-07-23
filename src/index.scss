@@ -9,6 +9,7 @@
   --color6: #11212d;
   --color7: #231e2d;
   --color8: #7c57cf;
+  --color9: #f3f3f3;
 }
 
 * {
@@ -21,9 +22,19 @@
   font-style: none;
   text-decoration: none;
   transition: 0.3s;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; 
+  user-select: none;
 }
 
 @font-face {
   font-family: "Koblenz-Serial";
   src: url(../font/Koblenz-Serial-Bold.ttf);
+}
+
+::selection {
+  background-color: var(--color4);
+  color: var(--color2);
 }
