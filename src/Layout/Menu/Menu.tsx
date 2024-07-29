@@ -17,7 +17,7 @@ const Menu = () => {
     <>
       <div className={Style.Adapter_wrap}>
         <div className={Style.Adapter}>
-          <div className={Style.Burger_Menu}  onClick={toggleMenu}>
+          <div className={Style.Burger_Menu}  onClick={toggleMenu}  >
             <span></span>
             <span></span>
             <span></span>
